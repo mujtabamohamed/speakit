@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speak It</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Speak It</h1>
+    <div class="control-group">
+      <label for="voice">Voice:</label>
+      <select id="voice"></select>
+    </div>
+    <div class="control-group">
+      <label for="rate">Speed:</label>
+      <input type="range" id="rate" min="0.5" max="2" step="0.1" value="1">
+      <span id="rate-value">1</span>
+    </div>
+    <div class="control-group">
+      <label for="pitch">Pitch:</label>
+      <input type="range" id="pitch" min="0" max="2" step="0.1" value="1">
+      <span id="pitch-value">1</span>
+    </div>
+    <div class="control-group">
+      <label for="volume">Volume:</label>
+      <input type="range" id="volume" min="0" max="1" step="0.1" value="1">
+      <span id="volume-value">1</span>
+    </div>
+    <div class="control-group">
+      <label for="text">Text:</label>
+      <textarea id="text" rows="4"></textarea>
+    </div>
+    <button id="speak-button">Speak</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
