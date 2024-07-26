@@ -23,7 +23,9 @@ SpeakIt is a Chrome extension that reads out loud the text you select on any web
 ## Usage
 - Select the text you want to be read out loud.
 - Right-click on the highlighted text and click on **Speak this text**.
+
 ![Speak this text](https://i.postimg.cc/T3fHnQP1/Speak-This-Text.png)
 - Click the **Speak** button in the popup.
+
 ![Speak It](https://i.postimg.cc/9QbgbT4p/Speak-It.png)
 
