@@ -14,11 +14,11 @@ SpeakIt is a Chrome extension that reads out loud the text you select on any web
 ```bash
   git clone https://github.com/mujtabamohamed/attention.git
 ```
-- Open Google Chrome and navigate to chrome://extensions/.
+- Open Google Chrome and navigate to **chrome://extensions/**.
 
-- Enable "Developer mode" by toggling the switch on the top right corner.
+- Enable **"Developer mode"** by toggling the switch on the top right corner.
 
-- Click on "Load unpacked" and select the directory where you cloned the repository.
+- Click on **"Load unpacked"** and select the directory where you cloned the repository.
 
 ## Usage
 - Select the text you want to be read out loud.
